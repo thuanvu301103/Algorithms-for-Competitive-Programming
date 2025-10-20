@@ -25,6 +25,6 @@ namespace algebra::prime {
      * std::vector<int> primes = algebra::prime::sieve(50);
      * // primes = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47}
      */
-    std::vector<int> sieve(int n);
+    std::vector<long long unsigned int> sieve(long long unsigned int n);
 
 }

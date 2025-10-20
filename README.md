@@ -12,7 +12,7 @@ myutils/
 |-- src/                        # source code
 |   |-- myutils.cpp
 |
-|-- example/
+|-- tests/
 |   |-- testUtils.cpp           # usage demo
 |
 ```

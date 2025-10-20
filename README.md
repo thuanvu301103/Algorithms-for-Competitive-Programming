@@ -15,4 +15,14 @@ myutils/
 |-- tests/
 |   |-- testUtils.cpp           # usage demo
 |
+|-- makefile                    # ussed for compile library
 ```
+
+## Compile static library
+Run makefile:
+``
+make
+``
+
+## Run the test
+Chnage the functions to be called then run ```main.cpp```

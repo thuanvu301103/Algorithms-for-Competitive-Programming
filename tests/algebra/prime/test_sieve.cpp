@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../../../src/algebra/prime/sieve.cpp"
+#include "../../../include/algebra/prime/sieve.hpp"
 
 using namespace algebra::prime;
 
@@ -12,9 +12,4 @@ void test_sieve_basic() {
     } else {
         std::cout << "Test passed: sieve(20)\n";
     }
-}
-
-int main() {
-    test_sieve_basic();
-    return 0;
 }
